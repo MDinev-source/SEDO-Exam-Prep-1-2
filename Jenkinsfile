@@ -17,7 +17,7 @@ pipeline {
                 bat 'dotnet restore'
             }
         }
-        stage('Build Application')
+        stage('Build Application') {
             when {
                 anyOf {
                     branch 'main'
