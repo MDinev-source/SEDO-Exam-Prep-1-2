@@ -9,6 +9,7 @@ namespace SoftUniBazar.Data.Models
 {
     public class Ad
     {
+        //Test1
         [Key]
         [Required]
         public int Id { get; set; }
