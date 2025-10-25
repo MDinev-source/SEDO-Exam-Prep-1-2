@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        dotnet 'dotnet-8'
-    }
-
     stages {
         stage('Restore the dependencies') {
             when {
