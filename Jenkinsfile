@@ -28,7 +28,7 @@ pipeline {
                 bat 'dotnet build --no-restore'
             }
         }
-        stage('Test Application')
+        stage('Test Application') {
             when {
                 anyOf {
                     branch 'main'
